@@ -24,6 +24,7 @@
     "win": {
       "target": "nsis",
       "icon": "icon.ico"
-    }
+    },
+    "publish":null
   }
 }

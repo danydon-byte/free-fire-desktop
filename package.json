@@ -1,11 +1,3 @@
-"build": {
-  "appId": "com.freefire.desktop",
-  "productName": "Free Fire Prototype",
-  "win": {
-    "target": "nsis"
-  }
-}
-
 {
   "name": "free-fire-game",
   "version": "1.0.0",
@@ -16,33 +8,22 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
-  "build": {
-    "appId": "com.danydon.freefire",
-    "productName": "FreeFireGame",
-    "win": {
-      "target": "nsis",
-      "icon": "icon.ico"
-    },
-    "splashScreen": {
-      "image": "splash.png"
-    }
-  },
   "devDependencies": {
     "electron": "^29.0.0",
     "electron-builder": "^24.0.0"
-  } ,
-  "build": {
-  "appId": "com.freefire.desktop",
-  "productName": "Free Fire Prototype",
-  "files": [
-    "**/*"
-  ],
-  "directories": {
-    "output": "dist"
   },
-  "win": {
-    "target": "nsis"
+  "build": {
+    "appId": "com.freefire.desktop",
+    "productName": "Free Fire Prototype",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
   }
-}
-
 }

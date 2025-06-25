@@ -23,4 +23,18 @@
     "electron": "^29.0.0",
     "electron-builder": "^24.0.0"
   }
+  "build": {
+  "appId": "com.freefire.desktop",
+  "productName": "Free Fire Prototype",
+  "files": [
+    "**/*"
+  ],
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": "nsis"
+  }
+}
+
 }

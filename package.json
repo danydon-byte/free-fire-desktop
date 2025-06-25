@@ -1,3 +1,11 @@
+"build": {
+  "appId": "com.freefire.desktop",
+  "productName": "Free Fire Prototype",
+  "win": {
+    "target": "nsis"
+  }
+}
+
 {
   "name": "free-fire-game",
   "version": "1.0.0",
